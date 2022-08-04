@@ -1,0 +1,16 @@
+# assign issues to owners automatically
+assign:
+  issues: enabled # or disabled
+  pull_requests: enabled # or disabled
+  # assign strategy, both issues and pull requests follow the same strategy
+  strategy:
+    # random
+    round-robin
+    # daily-shift-based
+  scedule:
+    '*/1 * * * *'
+  # assignees
+  assignees:
+    - wangruohui
+    - Yshuo-Li
+    - 1900zyh
